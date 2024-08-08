@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realestate-sell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--==================== header ====================-->
+    <header>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="logo-container">
+                    <img src="./image/real-estate-logo-house-logo-home-logo-sign-symbol-free-vector.jpg" alt="Logo" class="logo">
+                    <div class="title">
+                        <h1>Sweet<span> Home</span></h1>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav-links d-none d-md-flex list-unstyled mb-0">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about-us.html" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="buying.html" class="nav-link">Buying</a></li>
+                        <li class="nav-item"><a href="selling.html" class="nav-link">Selling</a></li>
+                        <li class="nav-item"><a href="renting.html" class="nav-link">Renting</a></li>
+                        <li class="nav-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+                    </ul>
+                    <div class="d-md-none burger" onclick="toggleSidebar()">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+                <div class="button-container">
+                    <button class="btn1">Login</button>
+                    <button class="btn2">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside id="sidebar" class="sidebar d-md-none">
+        <ul class="sidebar-links list-unstyled mb-0">
+            <li><a href="index.html" onclick="toggleSidebar()">Home</a></li>
+            <li><a href="about-us.html" onclick="toggleSidebar()">About us</a></li>
+            <li><a href="buying.html" onclick="toggleSidebar()">Buying</a></li>
+            <li><a href="selling.html" onclick="toggleSidebar()">Selling</a></li>
+            <li><a href="renting.html" onclick="toggleSidebar()">Renting</a></li>
+            <li><a href="#contact-us" onclick="toggleSidebar()">Contact Us</a></li>
+            <li><a href="#closeBtn" onclick="toggleSidebar()"><button class="btn1">Close</button></a></li>
+            
+        </ul>
+    </aside>
+   <!--==================== header ====================-->
+
+   <!--==================== home ====================-->
+    <div class="background-container">
+        <img class="background-image" src="./image/selling.jpg" alt="Background Image">
+        <div class="row">
+            <div class="col-12">
+                <div class="welcome-text">
+                    <h1>💼 Unlock Success by Selling With Us 💼</h1>
+                    <h3>Join our vibrant marketplace and unlock unparalleled opportunities! </h3>
+                    <p>Whether you're a seasoned entrepreneur or just starting out, our platform offers everything you need to grow and succeed.</p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<div class="container-body">
+    <div class="title1">Recently sell</span> </div>  
+    <div class="search1-container d-flex justify-content-left">
+      <input type="text1" id="search1" placeholder="Search what you need">
+      <button type="button" id="search1-button">Search</button>
+  </div>
+      <div class="listProduct">
+          <div class="card1">
+              <img src="./image/dragon_1.jpeg" class="img-thumbnail" alt="House for Sale">
+              <div class="card1-content">
+                <div class="card1-title">Condo</div>
+                <div class="card1-price">$474,000</div>
+                <div class="card1-details">
+                  <span>1 bed 1 bath 1,052 sqft</span>
+                  <span>2525 N George Mason Dr, Arlington, VA...</span>
+                </div>
+              </div>
+            </div>
+            <div class="card1">
+              <img src="./image/dragon_1.jpeg" class="img-thumbnail" alt="Condo">
+              <div class="card1-content">
+                <div class="card1-title">Condo</div>
+                <div class="card1-price">$500,000</div>
+                <div class="card1-details">
+                  <span>1 bed 1 bath 788 sqft</span>
+                  <span>1021 N Garfield St Apt 335, Arlington, VA...</span>
+                </div>
+              </div>
+            </div>
+            <div class="card1">
+              <img src="./image/dragon_2.jpeg" class="img-thumbnail" alt="Townhome">
+              <div class="card1-content">
+                <div class="card1-title">Townhome</div>
+                <div class="card1-price">$345,000</div>
+                <div class="card1-details">
+                  <span>3 bed 3 bath 1,900 sqft</span>
+                  <span>3141 S Stafford St, Arlington, VA 22206</span>
+                </div>
+              </div>
+            </div>
+  </div>
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="button1-container">
+                  <button class="btn__9">
+                      <span>See More</span>
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!--  appointment start-->
+<div class="popular-container">
+    <div class="popular-text">
+        <h1>Sell your home</h1>
+    </div>
+</div>
+<div class="sell-container">
+    <img class="sell-image" src="./image/buying home.jpg" alt="Background Image">
+    <div class="row">
+        <div class="col-12">
+            <div class="sell-text">
+                <h2 class="mb-4">Give the information</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Your Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date">
+                    </div>
+                    <div class="mb-3">
+                        <label for="home-size" class="form-label">Home Size</label>
+                        <input type="text" class="form-control" id="home-size" placeholder="Home Size">
+                    </div>
+                    <div class="mb-3">
+                        <label for="video-url" class="form-label">Put on your home video</label>
+                        <input type="text" class="form-control" id="video-url" placeholder="Put on your home video">
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Category</label>
+                        <select id="category" class="form-control">
+                            <option value="" disabled selected hidden>Choose one option</option>
+                            <option value="floor-area">Floor Area</option>
+                            <option value="residential">Residential</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="communal-land">Communal Land</option>
+                            <option value="commercial">Commercial</option>
+                            <option value="industrial">Industrial</option>
+                            <option value="building-code">Building Code</option>
+                            <option value="insurability">Insurability</option>
+                        </select>
+                    </div>                
+                    <div class="button1-container">
+                        <button class="btn__9">
+                            <span>Submit</span>
+                        </button>
+                    </div>
+                </form>            
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- appointment section end-->
+
+
+
+   <!--====================  footer ====================-->
+    <div class="section" id="contact-us">
+        <img class="footer-image" src="./image/about image.jpg" alt="footer Image">
+        <div>
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog & Articles</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Instagram</h2>
+            <div class="instagram-gallery">
+                <img src="./image/dragon_1.jpeg" alt="Instagram Image 1">
+                <img src="./image/dragon_2.jpeg" alt="Instagram Image 2">
+                <img src="./image/dragon_3.jpeg" alt="Instagram Image 3">
+            </div>
+        </div>
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p><i class="fas fa-map-marker-alt"></i> 121 King St, Melbourne den 3000, Australia</p>
+            <p><i class="fas fa-envelope"></i> info@example.com</p>
+            <p><i class="fas fa-phone-alt"></i> +123-596-000</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Terms of Use | Privacy Policy | 2021© All rights reserved by Radiustheme</p>
+    </footer>
+    
+    
+    <!--====================  footer ====================-->
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+    </html>
+    

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realestate-buy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--==================== header ====================-->
+    <header>
+      <div class="container">
+          <div class="d-flex justify-content-between align-items-center py-3">
+              <div class="logo-container">
+                  <img src="./image/real-estate-logo-house-logo-home-logo-sign-symbol-free-vector.jpg" alt="Logo" class="logo">
+                  <div class="title">
+                      <h1>Sweet<span> Home</span></h1>
+                  </div>
+              </div>
+              <nav>
+                  <ul class="nav-links d-none d-md-flex list-unstyled mb-0">
+                      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                      <li class="nav-item"><a href="about-us.html" class="nav-link">About us</a></li>
+                      <li class="nav-item"><a href="buying.html" class="nav-link">Buying</a></li>
+                      <li class="nav-item"><a href="selling.html" class="nav-link">Selling</a></li>
+                      <li class="nav-item"><a href="renting.html" class="nav-link">Renting</a></li>
+                      <li class="nav-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+                  </ul>
+                  <div class="d-md-none burger" onclick="toggleSidebar()">
+                      <div class="line1"></div>
+                      <div class="line2"></div>
+                      <div class="line3"></div>
+                  </div>
+              </nav>
+              <div class="button-container">
+                  <button class="btn1">Login</button>
+                  <button class="btn2">Sign up</button>
+              </div>
+          </div>
+      </div>
+  </header>
+  <aside id="sidebar" class="sidebar d-md-none">
+      <ul class="sidebar-links list-unstyled mb-0">
+          <li><a href="index.html" onclick="toggleSidebar()">Home</a></li>
+          <li><a href="about-us.html" onclick="toggleSidebar()">About us</a></li>
+          <li><a href="buying.html" onclick="toggleSidebar()">Buying</a></li>
+          <li><a href="selling.html" onclick="toggleSidebar()">Selling</a></li>
+          <li><a href="renting.html" onclick="toggleSidebar()">Renting</a></li>
+          <li><a href="#contact-us" onclick="toggleSidebar()">Contact Us</a></li>
+          <li><a href="#closeBtn" onclick="toggleSidebar()"><button class="btn1">Close</button></a></li>
+          
+      </ul>
+  </aside>
+
+<!--==================== for buying ====================-->
+ <!--==================== home ====================-->
+ <div class="background-container">
+  <img class="background-image" src="./image/buy.jpg" alt="Background Image">
+  <div class="row">
+      <div class="col-12">
+          <div class="welcome-text">
+              <h1>✨Discover Your Perfect Home ✨</h1>
+              <h3>Join our vibrant marketplace and unlock unparalleled opportunities! </h3>
+              <p>Whether you're a seasoned entrepreneur or just starting out, our platform offers everything you need to grow and succeed.</p>
+             
+          </div>
+      </div>
+  </div>
+</div>
+<!--==================== home ====================-->
+<div class="about-container" id="buying">
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>Buy Your Dreams</h1>
+        </div>
+    </div>
+<div>
+
+<div class="container-body">
+    <div class="title1">Homes Around <span> $774,000</span> </div>  
+    <div class="title2">view all in Arlington, VA </div>
+    <div class="search1-container d-flex justify-content-left">
+      <input type="text1" id="search1" placeholder="Search what you need">
+      <button type="button" id="search1-button">Search</button>
+  </div>
+    <div class="listProduct">
+        <div class="card1">
+            <div class="new-badge">NEW - 10 HOURS AGO</div>
+            <img src="./image/dragon_1.jpeg" class="img-thumbnail" alt="House for Sale">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$774,000</div>
+              <div class="card1-details">
+                <span>1 bed 1 bath 1,052 sqft</span>
+                <span>2525 N George Mason Dr, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW - 10 HOURS AGO</div>
+            <img src="./image/dragon_1.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$540,000</div>
+              <div class="card1-details">
+                <span>1 bed 1 bath 788 sqft</span>
+                <span>1021 N Garfield St Apt 335, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_2.jpeg" class="img-thumbnail" alt="Townhome">
+            <div class="card1-content">
+              <div class="card1-title">Townhome</div>
+              <div class="card1-price">$645,000</div>
+              <div class="card1-details">
+                <span>3 bed 3 bath 1,900 sqft</span>
+                <span>3141 S Stafford St, Arlington, VA 22206</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_3.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$678,000</div>
+              <div class="card1-details">
+                <span>2 bed 2 bath 1,380 sqft</span>
+                <span>3800 Fairfax Dr Apt 109, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_3.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$678,000</div>
+              <div class="card1-details">
+                <span>2 bed 2 bath 1,380 sqft</span>
+                <span>3800 Fairfax Dr Apt 109, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_3.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$678,000</div>
+              <div class="card1-details">
+                <span>2 bed 2 bath 1,380 sqft</span>
+                <span>3800 Fairfax Dr Apt 109, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="button1-container">
+                <button class="btn__9">
+                    <span>See More</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container-body">
+  <div class="title1">Homes Around <span> $504,000</span> </div>  
+  <div class="title2">view all in Arlington, VA </div>
+  <div class="search1-container d-flex justify-content-left">
+    <input type="text1" id="search1" placeholder="Search what you need">
+    <button type="button" id="search1-button">Search</button>
+</div>
+    <div class="listProduct">
+        <div class="card1">
+            <div class="new-badge">NEW - 10 HOURS AGO</div>
+            <img src="./image/dragon_1.jpeg" class="img-thumbnail" alt="House for Sale">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$474,000</div>
+              <div class="card1-details">
+                <span>1 bed 1 bath 1,052 sqft</span>
+                <span>2525 N George Mason Dr, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW - 10 HOURS AGO</div>
+            <img src="./image/dragon_1.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$500,000</div>
+              <div class="card1-details">
+                <span>1 bed 1 bath 788 sqft</span>
+                <span>1021 N Garfield St Apt 335, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_2.jpeg" class="img-thumbnail" alt="Townhome">
+            <div class="card1-content">
+              <div class="card1-title">Townhome</div>
+              <div class="card1-price">$345,000</div>
+              <div class="card1-details">
+                <span>3 bed 3 bath 1,900 sqft</span>
+                <span>3141 S Stafford St, Arlington, VA 22206</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_3.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$478,000</div>
+              <div class="card1-details">
+                <span>2 bed 2 bath 1,380 sqft</span>
+                <span>3800 Fairfax Dr Apt 109, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_3.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$378,000</div>
+              <div class="card1-details">
+                <span>2 bed 2 bath 1,380 sqft</span>
+                <span>3800 Fairfax Dr Apt 109, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="new-badge">NEW</div>
+            <img src="./image/dragon_3.jpeg" class="img-thumbnail" alt="Condo">
+            <div class="card1-content">
+              <div class="card1-title">Condo</div>
+              <div class="card1-price">$378,000</div>
+              <div class="card1-details">
+                <span>2 bed 2 bath 1,380 sqft</span>
+                <span>3800 Fairfax Dr Apt 109, Arlington, VA...</span>
+              </div>
+              <div class="btn-group">
+                <button class="btn3">BUY NOW</button>
+                <button class="btn3">View Details</button>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="button1-container">
+                <button class="btn__9">
+                    <span>See More</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====================  footer ====================-->
+<div class="section" id="contact-us">
+    <img class="footer-image" src="./image/about image.jpg" alt="footer Image">
+    <div>
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog & Articles</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Instagram</h2>
+        <div class="instagram-gallery">
+            <img src="./image/dragon_1.jpeg" alt="Instagram Image 1">
+            <img src="./image/dragon_2.jpeg" alt="Instagram Image 2">
+            <img src="./image/dragon_3.jpeg" alt="Instagram Image 3">
+        </div>
+    </div>
+    <div class="contact-info">
+        <h2>Contact</h2>
+        <p><i class="fas fa-map-marker-alt"></i> 121 King St, Melbourne den 3000, Australia</p>
+        <p><i class="fas fa-envelope"></i> info@example.com</p>
+        <p><i class="fas fa-phone-alt"></i> +123-596-000</p>
+    </div>
+</div>
+<footer class="footer">
+    <p>Terms of Use | Privacy Policy | 2021© All rights reserved by Radiustheme</p>
+</footer>
+
+
+<!--====================  footer ====================-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

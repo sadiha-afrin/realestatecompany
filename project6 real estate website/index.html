@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realestate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--==================== header ====================-->
+    <header>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="logo-container">
+                    <img src="./image/real-estate-logo-house-logo-home-logo-sign-symbol-free-vector.jpg" alt="Logo" class="logo">
+                    <div class="title">
+                        <h1>Sweet<span> Home</span></h1>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="nav-links d-none d-md-flex list-unstyled mb-0">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about-us.html" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="buying.html" class="nav-link">Buying</a></li>
+                        <li class="nav-item"><a href="selling.html" class="nav-link">Selling</a></li>
+                        <li class="nav-item"><a href="renting.html" class="nav-link">Renting</a></li>
+                        <li class="nav-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+                    </ul>
+                    <div class="d-md-none burger" onclick="toggleSidebar()">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+                <div class="button-container">
+                    <button class="btn1">Login</button>
+                    <button class="btn2">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside id="sidebar" class="sidebar d-md-none">
+        <ul class="sidebar-links list-unstyled mb-0">
+            <li><a href="index.html" onclick="toggleSidebar()">Home</a></li>
+            <li><a href="about-us.html" onclick="toggleSidebar()">About us</a></li>
+            <li><a href="buying.html" onclick="toggleSidebar()">Buying</a></li>
+            <li><a href="selling.html" onclick="toggleSidebar()">Selling</a></li>
+            <li><a href="renting.html" onclick="toggleSidebar()">Renting</a></li>
+            <li><a href="#contact-us" onclick="toggleSidebar()">Contact Us</a></li>
+            <li><a href="#closeBtn" onclick="toggleSidebar()"><button class="btn1">Close</button></a></li>
+            
+        </ul>
+    </aside>
+   <!--==================== header ====================-->
+
+   <!--==================== home ====================-->
+    <div class="background-container" id="home">
+        <img class="background-image" src="./image/pngtree-high-end-atmosphere-black-gold-real-estate-commercial-real-estate-advertising-image_21500.jpg" alt="Background Image">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="welcome-text">
+                    <h1>Find the haven,<br> where your dreams come true</h1>
+                    <div class="search-container d-flex justify-content-center">
+                        <input type="text" id="search" placeholder="Search what you need">
+                        <button type="button" id="search-button">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="banner">
+                    <div class="slider" style="--quantity:6">
+                        <div class="item img-thumbnail" style="--position: 1"><img src="./image/aboutus.png" alt=""></div>
+                        <div class="item img-thumbnail" style="--position: 2"><img src="./image/buypage.png" alt=""></div>
+                        <div class="item img-thumbnail" style="--position: 3"><img src="./image/ren.png" alt=""></div>
+                        <div class="item img-thumbnail" style="--position: 4"><img src="./image/popular.png" alt=""></div>
+                        <div class="item img-thumbnail" style="--position: 5"><img src="./image/sell.png" alt=""></div>
+                        <div class="item img-thumbnail" style="--position: 6"><img src="./image/buying home.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--==================== home ====================-->
+
+<!--==================== about us ====================-->
+<div class="about-container" id="about-us">
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>About Us</h1>
+        </div>
+    </div>
+<div>
+    <div class="about-container">
+        <img class="about-image" src="./image/about image.jpg" alt="about Image">
+        <div class="row">
+            <div class="col-3">
+        <div class="card">
+          <i class="icon">🎯</i>
+          <h2>COMPANY MISSION</h2>
+          <p>This is the sample dummy text insert your desired text here because this is the dummy text.</p>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card">
+          <i class="icon">👁️</i>
+          <h2>COMPANY VALUES</h2>
+          <p>This is the sample dummy text insert your desired text here because this is the dummy text.</p>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card">
+          <i class="icon">🌎</i>
+          <h2>OUR VISION</h2>
+          <p>This is the sample dummy text insert your desired text here because this is the dummy text.</p>
+        </div>
+    </div>
+    </div>
+ </div>
+<!--==================== about us ====================-->
+
+<!--==================== popular residences ====================-->
+
+<div class="popular-container">
+    <div class="popular-text">
+        <h1>Popular Residences</h1>
+    </div>
+</div>
+
+<section class="popular-residences py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="./image/dragon_2.jpeg" class="card-img-top" alt="Residence Image">
+                    <div class="card-body">
+                        <h5 class="card-title">For Buying</h5>
+                        <h6>Place: Mymensingh</h6>
+                        <p class="card-text">Price: $12000.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="./image/dragon_4.jpeg" class="card-img-top" alt="Residence Image">
+                    <div class="card-body">
+                        <h5 class="card-title">For Selling</h5>
+                        <h6>Place: Mymensingh</h6>
+                        <p class="card-text">Price: $12000.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="./image/dragon_3.jpeg" class="card-img-top" alt="Residence Image">
+                    <div class="card-body">
+                        <h5 class="card-title">For Renting</h5>
+                        <h6>Place: Mymensingh</h6>
+                        <p class="card-text">Price: $12000.5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====================  popular residences ====================-->
+<div class="about-container">
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>Clients Review</h1>
+        </div>
+    </div>
+<div> 
+<div class="container">
+    <div class="userview">
+    <div class="card3">
+        <div class="user-info">
+            <img class="user-image" src="./image/client-icon-in-logotype-vector.jpg" alt="User Image">
+            <div>
+                <span class="user-name">Touseeq Ijaz</span>
+                <span class="user-handle">@touseeqijazweb</span>
+            </div>
+        </div>
+        <div class="rating">
+            <div class="star-rating">
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+            </div>
+        </div>
+        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+    </div>
+
+    <div class="card3">
+        <div class="user-info">
+            <img class="user-image" src="./image/client-icon-in-logotype-vector.jpg" alt="User Image">
+            <div>
+                <span class="user-name">J.K Rowling</span>
+                <span class="user-handle">@jkrowling</span>
+            </div>
+        </div>
+        <div class="rating">
+            <div class="star-rating">
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+            </div>
+        </div>
+        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+    </div>
+
+    <div class="card3">
+        <div class="user-info">
+            <img class="user-image" src="./image/client-icon-in-logotype-vector.jpg" alt="User Image">
+            <div>
+                <span class="user-name">Harry Potter</span>
+                <span class="user-handle">@DanielRedclief</span>
+            </div>
+        </div>
+        <div class="rating">
+            <div class="star-rating">
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+            </div>
+        </div>
+        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+    </div>
+
+    <div class="card3">
+        <div class="user-info">
+            <img class="user-image" src="./image/client-icon-in-logotype-vector.jpg" alt="User Image">
+            <div>
+                <span class="user-name">Oliva</span>
+                <span class="user-handle">@Olivaadward</span>
+            </div>
+        </div>
+        <div class="rating">
+            <div class="star-rating">
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+                <i class="star">★</i>
+            </div>
+        </div>
+        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+    </div>
+</div>
+</div>
+<!--====================  footer ====================-->
+<div class="section" id="contact-us">
+    <img class="footer-image" src="./image/about image.jpg" alt="footer Image">
+    <div>
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog & Articles</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Instagram</h2>
+        <div class="instagram-gallery">
+            <img src="./image/dragon_1.jpeg" alt="Instagram Image 1">
+            <img src="./image/dragon_2.jpeg" alt="Instagram Image 2">
+            <img src="./image/dragon_3.jpeg" alt="Instagram Image 3">
+        </div>
+    </div>
+    <div class="contact-info">
+        <h2>Contact</h2>
+        <p><i class="fas fa-map-marker-alt"></i> 121 King St, Melbourne den 3000, Australia</p>
+        <p><i class="fas fa-envelope"></i> info@example.com</p>
+        <p><i class="fas fa-phone-alt"></i> +123-596-000</p>
+    </div>
+</div>
+<footer class="footer">
+    <p>Terms of Use | Privacy Policy | 2021© All rights reserved by Radiustheme</p>
+</footer>
+
+
+<!--====================  footer ====================-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
